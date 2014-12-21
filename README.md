@@ -7,12 +7,12 @@ Clone this repository and run the run_analysis.R script from within the cloned r
 
 This script will download and process the data set generating a tidy data set at  ./data/TidyDataSet.txt 
 
-Data Source
+#Data Source
 This project uses the "Human Activity Recognition Using Smartphones Dataset" downloaded to ./data/Dataset.zip by run_analysis.R from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 
-Script Walkthrough
+#Script Walkthrough
 The run_analysis.R script will perform the following steps:
 •Require reshape2 library (for the melt() function)
 •Ensure the data path exists (./data)
