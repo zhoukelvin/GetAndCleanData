@@ -1,16 +1,15 @@
 
-
-Getting and Cleaning Data
+#Getting and Cleaning Data
 NOTE: Much content from here was taken from the sources at [1] and [2]
 
 
 
-Course Project
+##Course Project
 Human Activity Recognition Using Smartphones Dataset [1]
 
 
 
-Source Experiment & Data Set
+##Source Experiment & Data Set
 The source data set represents data collected from the accelerometers from the Samsung Galaxy S smartphone. The data set archive can be downloaded from:
 
 Data Set URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -31,7 +30,7 @@ For more information please visit [2]
 
 
 
-Source Files
+##Source Files
 The source files we use to create the tidy data set from the extrated data archive are:
 •  features_info.txt : Shows information about the variables used on the feature vector.
 •  features.txt : List of all features.
@@ -48,7 +47,7 @@ NOTE: We do not use the Inertial Signals for this tidy data set.
 
 
 
-Variables
+##Variables
 Variables within the tidy data set are as examined as follows (taken from [1]).
 
 The activity labels consist of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
@@ -69,7 +68,7 @@ SubjectID, Class_Name, tBodyAcc_mean_X, tBodyAcc_mean_Y, tBodyAcc_mean_Z, tBodyA
 
 
 
-Transformations
+##Transformations
 Training and test data set rows were appended and then a unified data set created from the source files.
 
 Measurements were extracted for mean, standard deviation for each measurement.
@@ -80,7 +79,7 @@ Results were output as an indepenent tidy data set at ./data/TidyDataSet.txt
 
 
 
-References
+#References
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 [2] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
