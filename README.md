@@ -14,7 +14,7 @@ This project uses the "Human Activity Recognition Using Smartphones Dataset" dow
 
 #Script Walkthrough
 The run_analysis.R script will perform the following steps:
-*Require reshape2 library (for the melt() function)
++Require reshape2 library (for the melt() function)
 *Ensure the data path exists (./data)
 *Checks if the data set archive was already downloaded
 *Downloading the data set archive if it was not already
